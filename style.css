@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-details {
+  padding: 20px 0;
+}
+
+.title-details .title-image-desc {
+  padding: 20px 30px 5px 30px;
+  background-color: hsla(0, 0%, 60.8%, 0.15);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-details .title-image-desc img {
+  width: 100%;
+  height: 290px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-details .title-image-desc .sample-listen {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.title-details .title-image-desc .sample-listen a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #009;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.title-details .title-image-desc .sample-listen span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #9b9b9b;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+
+.title-details .title-image-desc .listen-share {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.title-details .title-image-desc .listen-share a {
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #009;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.title-details .title-image-desc .listen-share span {
+  color: #9b9b9b;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.title-details .title-desc .title-name {
+  font-family: Mallanna, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #5D5D5A;
+}
+
+.title-details .title-desc .title-eng {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5D5D5A;
+}
+
+.title-details .title-desc .title-author {
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 24px;
+  color: #5D5D5A;
+  letter-spacing: 0.1px;
+}
+
+.title-details .title-desc .title-desc-tel {
+  overflow: visible;
+  margin-bottom: 20px;
+  font-family: Mallanna, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #5D5D5A;
+}
+
+.title-details .title-desc .image-link {
+  overflow: auto;
+  max-height: 200px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5D5D5A;
+}
+
+.title-details .title-info {
+  margin-top: 20px;
+}
+
+.title-details .title-info .price {
+  border-radius: 3px;
+  background-color: rgba(143, 143, 223, 0.18);
+  font-family: Opensans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 15px;
+}
+
+.title-details .title-info .price .a-price {
+  color: #5ac18e;
+}
+
+.title-details .title-info .data {
+  font-family: Opensans, sans-serif;
+  font-size: 14px;
+  padding: 5px 15px;
+  line-height: 20px;
+}
+
+.title-details .title-info .price .row,
+.title-details .title-info .data .row {
+  align-items: center;
+}
+
+.title-details .title-info .data .heading {
+  font-weight: bold;
+}
+
+.title-details .title-info .data .col-6 {
+  margin: 10px 0;
+}
+
+/* Small */
+@media (min-width: 425px) and (max-width: 767.99px) {}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991.99px) {}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1199.99px) {}
+
+/* X-Large */
+@media (min-width: 1200px) and (max-width: 1399.99px) {}
+
+/* XX-Large */
+@media (min-width: 1400px) {}
